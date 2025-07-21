@@ -1,5 +1,5 @@
 # 🛰️ Project 2 Name: GlobalEye AI
-- To view in detail about project: [GlobalEye AI](https://docs.google.com/document/d/1UglJyG9V09jie_h0iWUJ_bEBBlll-SbO5UYc5bqDakg/edit?usp=drivesdk)
+- To view in detail about project: [GlobalEye AI](https://docs.google.com/document/d/1UglJyG9V09jie_h0iWUJ_bEBBlll-SbO5UYc5bqDakg/edit?usp=sharing)
 - Tech Stack: Next.js + Tailwind CSS
 - Goal: Build a sleek, modern frontend for a fictional AI company, **GlobalEye AI**, focusing on visual intelligence, cloud analytics, and smart surveillance solutions.
 
