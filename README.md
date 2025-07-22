@@ -1,4 +1,5 @@
 # 🛰️ Project 2 Name: GlobalEye AI
+- To view in detail about project: [GlobalEye AI](https://docs.google.com/document/d/1UglJyG9V09jie_h0iWUJ_bEBBlll-SbO5UYc5bqDakg/edit?usp=sharing)
 - Tech Stack: Next.js + Tailwind CSS
 - Goal: Build a sleek, modern frontend for a fictional AI company, **GlobalEye AI**, focusing on visual intelligence, cloud analytics, and smart surveillance solutions.
 
@@ -35,8 +36,8 @@ GlobalEye AI is a cutting-edge platform that provides AI-powered video analytics
 | **Member**   | **Pages**                      | **Components**                                                                                                                                      | **Responsibilities**                                                                                                |
 | ------------ | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | **Harshita** | `/` (Home)                     | - `Navbar.jsx`<br> - `HeroSection.jsx`<br> - `FeaturesSection.jsx`<br> - `IndustriesSection.jsx`<br>- `Footer.jsx`<br> - `TeamSection.jsx` | - Build the entire homepage<br> - Create shared layout components<br> - Ensure full responsiveness                  |
-| **Paridhi**  | `/solutions`<br> `/technology` | - `SolutionsSection.jsx`<br> - `TechnologySection.jsx`<br> - `UseCaseCard.jsx`                                                                      | - Design use case and tech pages<br> - Build solution/tech visuals<br> - Add placeholder navigation links           |
-| **Ojaswee**  | `/about`<br> `/contact`        | - `MissionSection.jsx`<br> - `ContactForm.jsx`  <br> - `Darkmode.jsx`                                                                            | - Create About and Contact pages<br> - Implement basic form (HTML validation)<br> - Ensure page styling consistency<br> - Use `TeamSection.jsx` in About Page|
+| **Ojaswee**  | `/solutions`<br> `/technology` | - `SolutionsSection.jsx`<br> - `TechnologySection.jsx`<br> - `UseCaseCard.jsx`                                                                      | - Design use case and tech pages<br> - Build solution/tech visuals<br> - Add placeholder navigation links           |
+| **Paridhi**  | `/about`<br> `/contact`        | - `MissionSection.jsx`<br> - `ContactForm.jsx`  <br> - `Darkmode.jsx`                                                                            | - Create About and Contact pages<br> - Implement basic form (HTML validation)<br> - Ensure page styling consistency<br> - Use `TeamSection.jsx` in About Page|
 
 >You can use the Element/functions use in project 1 if they are similary for faster completion.
 ## 📁 Folder Structure
