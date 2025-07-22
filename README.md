@@ -16,7 +16,7 @@ GlobalEye AI is a cutting-edge platform that provides AI-powered video analytics
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/globaleye-ai.git
+   git clone https://github.com/harshitabisht05/globaleyeAI.git
    cd globaleye-ai
     ```
 2. **Install dependencies**

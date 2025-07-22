@@ -1,7 +1,7 @@
 // components/Footer.jsx
 export default function Footer() {
   return (
-    <footer className="bg-blue-500/20 text-gray-900  dark:bg-gray-500/20 dark:text-gray-300 py-4 text-center text-sm">
+    <footer className="bg-white text-black dark:bg-black dark:text-white py-4 text-center transition-colors duration-300">
       <p className="mb-2">
         This project is an internship project from <span className="font-semibold">Sentienta Quality AI</span><br />
         by Interns <span className="font-semibold">Harshita</span>, <span className="font-semibold">Paridhi</span> and <span className="font-semibold">Ojaswee</span>.

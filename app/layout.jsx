@@ -1,10 +1,15 @@
 import './globals.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: 'GlobalEye AI',
   description: 'Advanced AI surveillance & defense analytics',
+   icons: {
+    icon: "/logo.png", // or .ico
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -20,7 +25,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer /> </body>
     </html>
   );
 }

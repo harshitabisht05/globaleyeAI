@@ -10,8 +10,6 @@ import Footer from "./components/Footer";
 export default function HomePage() {
   return (
     <main className="bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
-      {/* Navbar */}
-      <Navbar />
 
       {/* Hero Section */}
       <section className="flex items-center justify-center bg-white dark:bg-black transition-colors duration-300">
@@ -45,13 +43,6 @@ export default function HomePage() {
           <UseCase />
         </div>
       </section> */}
-
-      {/* Footer Section */}
-      <section>
-        <div>
-          <Footer />
-        </div>
-      </section>
     </main>
   );
 }
