@@ -44,17 +44,6 @@ export default function TechnologyPage() {
           ))}
         </div>
       </section>
-
-      <footer className="mt-20 bg-black text-white py-6 text-center">
-        <p>
-          This project is an internship project from{" "}
-          <span className="font-semibold">Sentienta Quality AI</span> by Interns{" "}
-          <span className="font-semibold">Harshita</span>,{" "}
-          <span className="font-semibold">Paridhi</span> and{" "}
-          <span className="font-semibold">Ojaswee</span>.
-        </p>
-        <p className="text-sm mt-2">© 2025 GlobalEye AI. All rights reserved.</p>
-      </footer>
     </main>
   );
 }

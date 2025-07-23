@@ -7,7 +7,7 @@ export default function MissionSection() {
       >
         Our Mission
       </h2>
-      <p className="max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-300">
+      <p className="max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-300" style={{ fontFamily: 'var(--font-body)'}}>
         At <span className="font-semibold">GlobalEye AI</span>, our mission is to empower industries with advanced drone technology
         and AI-powered insights. We strive to provide real-time solutions for defense,
         agriculture, logistics, and beyond—enhancing decision-making through innovation.

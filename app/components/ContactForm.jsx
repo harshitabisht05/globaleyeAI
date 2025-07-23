@@ -21,6 +21,7 @@ export default function ContactForm() {
         onChange={handleChange}
         required
         placeholder="Your Name"
+        style={{ fontFamily: 'var(--font-body)' }}
         className="w-full p-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#0047FF] dark:bg-gray-800 dark:text-white"
       />
       <input
@@ -30,6 +31,7 @@ export default function ContactForm() {
         onChange={handleChange}
         required
         placeholder="Your Email"
+        style={{ fontFamily: 'var(--font-body)' }}
         className="w-full p-4 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#0047FF] dark:bg-gray-800 dark:text-white"
       />
       <textarea
@@ -38,11 +40,13 @@ export default function ContactForm() {
         onChange={handleChange}
         required
         placeholder="Your Message"
+        style={{ fontFamily: 'var(--font-body)' }}
         className="w-full p-4 border border-gray-300 rounded-md h-32 resize-none focus:ring-2 focus:ring-[#0047FF] dark:bg-gray-800 dark:text-white"
       />
       <button
         type="submit"
         className="bg-[#0047FF] hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-md transition"
+        style={{ fontFamily: 'var(--font-body)' }}
       >
         Send Message
       </button>

@@ -8,7 +8,7 @@ export default function AboutPage() {
         <h1 className="text-5xl font-semibold tracking-wide" style={{ fontFamily: 'var(--font-heading)' }}>
           About <span className="text-[#0047FF]">GlobalEye AI</span>
         </h1>
-        <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
+        <p className="mt-4 text-lg max-w-2xl mx-auto text-gray-700 dark:text-gray-300" style={{ fontFamily: 'var(--font-body)' }}>
           Revolutionizing industries with aerial intelligence & AI-powered precision.
         </p>
       </section>

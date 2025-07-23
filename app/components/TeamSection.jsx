@@ -36,10 +36,10 @@ export default function TeamSection() {
             transition={{ duration: 0.4, delay: index * 0.1 }}
             className="bg-gray-50 dark:bg-neutral-900 p-6 rounded-xl shadow hover:shadow-xl transition hover:scale-105"
           >
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-white" style={{ fontFamily: 'var(--font-body)' }}>
               {member.name}
             </h3>
-            <p className="text-sm text-[#0047FF] mb-2">{member.role}</p>
+            <p className="text-sm text-[#0047FF] mb-2" style={{ fontFamily: 'var(--font-body)' }}>{member.role}</p>
           </motion.div>
         ))}
       </div>

@@ -9,7 +9,7 @@ export default function ContactPage() {
       >
         Get In <span className="text-[#0047FF]">Touch</span>
       </h1>
-      <p className="text-center mt-4 text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+      <p className="text-center mt-4 text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto" style={{ fontFamily: 'var(--font-body)' }}>
         We’d love to hear from you. Whether you have a question or just want to say hi —
         drop us a message and we’ll get back to you!
       </p>
