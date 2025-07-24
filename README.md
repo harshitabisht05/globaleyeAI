@@ -1,5 +1,5 @@
 # 🛰️ GlobalEye AI
-> Empowering industries with cutting-edge drone and AI technology.
+> Empowering industries with cutting-edge AI technology.
 
 <!-- ## 🌐 Website Preview
 
@@ -14,13 +14,6 @@
 - **Styling**: Tailwind CSS
 - **Language**: JavaScript
 <!-- - **Hosting**: Vercel -->
-
----
-
-## 📌 Project Overview
-
-GlobalEye AI is an innovative technology initiative aimed at delivering cutting-edge AI-powered solutions through drone systems and intelligent analytics. The platform empowers industries such as agriculture, infrastructure, logistics, security, and disaster management by combining autonomous drone technology with real-time data analysis and decision support.
-
 
 ---
 ## 📁 Folder Structure
