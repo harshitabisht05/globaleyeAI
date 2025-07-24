@@ -1,3 +1,5 @@
+'use client';
+import { motion } from 'framer-motion';
 
 const techFeatures = [
   {
@@ -19,23 +21,32 @@ const techFeatures = [
 
 export default function TechnologySection() {
   return (
-    <section className="bg-white py-20 px-6 max-w-7xl mx-auto">
-      <h2
-        className="text-4xl md:text-5xl font-heading mb-10 text-center"
-        style={{ fontFamily: 'var(--font-heading)' }}
-      >
-        Cutting-Edge Technology Stack
-      </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <section>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {techFeatures.map((tech, index) => (
-          <div
+          <motion.div
             key={index}
-            className="bg-blue-100 rounded-2xl p-6 shadow hover:shadow-lg transition"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: index * 0.1 }}
+            className="bg-gray-50 dark:bg-neutral-900 p-6 rounded-xl shadow hover:shadow-xl transition hover:scale-105"
           >
             <div className="text-4xl mb-4">{tech.icon}</div>
-            <h3 className="text-xl font-semibold mb-2">{tech.title}</h3>
-            <p className="text-gray-700">{tech.description}</p>
-          </div>
+            <h3
+              className="text-xl font-semibold text-gray-800 dark:text-white"
+              style={{ fontFamily: 'var(--font-body)' }}
+            >
+              {tech.title}
+            </h3>
+            <p
+              className="text-sm text-gray-600 dark:text-gray-300 mb-2"
+              style={{ fontFamily: 'var(--font-body)' }}
+            >
+              {tech.description}
+            </p>
+          </motion.div>
         ))}
       </div>
     </section>
